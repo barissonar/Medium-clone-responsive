@@ -1,0 +1,132 @@
+* {
+    font-family: 'PT Serif', serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.bg-yellow{
+    background-color: rgb(255, 192, 23);
+}
+.gj {
+    height: 31px;
+}
+.cn {
+    fill: rgba(0, 0, 0, 1);
+}
+.ul-size-color{
+
+    font-size: 18px;
+    color: black;
+
+}
+
+.get-started-button{
+    
+    height: 50px;
+    width: 130px;
+    text-align: center;
+    
+    
+    
+    
+}
+.start-reading-button{
+    width: 250px;
+    height: 50px;
+    font-size: 23px;
+    
+}
+.header-container{
+
+    padding: 75px 0px 75px 0px;
+ 
+}
+.font-bold{
+    font-weight: bold;
+}
+.number-content{
+    color: gainsboro;
+    letter-spacing: -0.014em;
+    line-height: 38px;
+    font-size: 40px;
+    font-weight: 500px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.profile-photo{
+    width: 30px;
+    height: 30px;
+}
+
+.responsive-font-size{
+    color: black;
+    font-size: 108px;
+}
+
+.color-6b{
+    color: #6b6b6b;
+}
+
+.bgcolor-f2{
+    background-color: #F2F2F2;
+}
+
+.bgcolor-lgray{
+    background-color: lightgray;
+}
+
+.max-line-2 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2; /* Maksimum 2 satır */
+    text-overflow: ellipsis;
+  }
+
+  .max-line-1 {
+    display: -webkit-inline-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 1; /* Maksimum 2 satır */
+    text-overflow: ellipsis;
+  }
+
+.bg-white-hover:hover {
+   background-color: white;
+
+} 
+
+.text-hover-change {
+   color: white; 
+}
+
+.text-hover-change:hover {
+   color: black;
+}
+
+.dplay-3{
+   font-size: 55px; 
+}
+
+@media (max-width: 1400px) {
+    .responsive-font-size {
+      font-size: 90px; 
+    }
+  }
+
+@media (max-width: 768px) {
+    .responsive-font-size {
+      font-size: 60px; 
+    }
+  }
+
+@media (max-width: 576px) {
+    .dplay-3 {
+      font-size: 30px; 
+    }
+  }  
+
+
+
+
+
